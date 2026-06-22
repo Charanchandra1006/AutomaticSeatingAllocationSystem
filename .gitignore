@@ -38,3 +38,14 @@ Thumbs.db
 
 # Project specific folders
 studentsexcels/
+
+# Sensitive Data and User outputs (Do not expose on GitHub)
+*.xlsx
+*.xls
+*.csv
+
+# Environment Variables and Secrets
+.env
+.env.*
+secrets.*
+credentials.json
